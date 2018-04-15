@@ -9,7 +9,6 @@ GPIO.setup(chan_list, GPIO.OUT)
 
 # GPIO.setup(7, GPIO.OUT)
 # loop through 50 times, on/off for 1 second
-GPIO.output(13,True)
 
 for i in range(50):
     GPIO.output(7,True)
